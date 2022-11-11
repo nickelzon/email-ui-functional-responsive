@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-container > .child {
+  margin-right: 10px;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+}
+
+.parent > .child {
+  margin-right: 10px;
+}
+
+.befter::before {
+  content: "<";
+}
+.befter::after {
+  content: ">";
+}
