@@ -26,7 +26,7 @@ const Header = ({ saveButton, deleteButton }) => {
             DELETE
           </button>
         </div>
-        <h1 className="font-poppins text-xs"> 50-150 </h1>
+        <h1 className="font-poppins text-xs befter"> 50-150 </h1>
       </div>
     </div>
   );
