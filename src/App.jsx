@@ -29,7 +29,7 @@ const App = () => {
   const saveButton = () => {
     setEmails(
       emails.map((item) =>
-        item.checked ? { ...item, category: "saved" } : item
+        item.checked ? { ...item, category: "saved", checked: false } : item
       )
     );
   };
